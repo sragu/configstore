@@ -3,3 +3,7 @@ managing application configuration and using dns to deliver config
 1. managing configuration of application with simple rest endpoints to retrieve them
 2. generate dns record template that could be pushed to dnsserver to configure nodes.
 3. use dns record reverse lookup to deliver right configuration
+
+
+if bored try these:
+may be use rabl/argonaut for json template. grape instead of sinatra
