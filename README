@@ -4,6 +4,8 @@ managing application configuration and using dns to deliver config
 2. generate dns record template that could be pushed to dnsserver to configure nodes.
 3. use dns record reverse lookup to deliver right configuration
 
+Make this as a ruby gem.
+
 
 if bored try these:
 may be use rabl/argonaut for json template. grape instead of sinatra
