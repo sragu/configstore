@@ -5,6 +5,6 @@ gem 'sinatra'
 gem 'json'
 
 
-group :development do 
-  gem 'pry' 
+group :development do
+  gem 'pry'
 end

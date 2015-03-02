@@ -6,10 +6,10 @@ get '/config' do
 
   content_type :json
 
-  headers "X-Identified-As" => host.identity.to_s
+  headers 'X-Identified-As' => host.identity.to_s
 
-  { :name => "appname", 
-    :identified_as => host.identity.to_s,
-    :environment => host.environment,
-    :db_url => "db.hostname.com/db/name"}.to_json
+  {:name => 'appname',
+   :identified_as => host.identity.to_s,
+   :environment => host.environment,
+   :db_url => 'db.hostname.com/db/name'}.to_json
 end

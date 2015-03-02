@@ -1,6 +1,5 @@
-require "rubygems"
-require "bundler/setup"
+require 'rubygems'
+require 'bundler/setup'
 
 Bundler.require(:default, :development)
-require_relative "configstore/routes"
-
+require_relative 'configstore/routes'
